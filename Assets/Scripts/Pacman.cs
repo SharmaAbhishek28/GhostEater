@@ -27,5 +27,8 @@ public class Pacman : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) {
             this.movement.SetDirection(Vector2.left);
         }
+       float angle = Mathf.Atan2(this.movement.direction.y, this.movement.direction.x);
+       this.transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.forward);
    }
 }
+ 
