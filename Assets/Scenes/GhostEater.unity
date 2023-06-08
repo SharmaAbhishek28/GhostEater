@@ -9593,7 +9593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51291405bce30ff47ad3e778afddf3dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 5
   speedMultiplier: 1
   initialDirection: {x: 1, y: 0}
   obstacleLayer:
